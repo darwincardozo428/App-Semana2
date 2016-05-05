@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:startColor">@color/dividerColor</item>
+
+    </style>
+
+    <style name="MiBotonPropio" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/dividerColor</item>
+        <item name="android:textColor">@color/textColor1</item>
+
+
+    </style>
+
+    <style name="MiEditText" parent="Theme.AppCompat.Light">
+        <item name="android:hint">@color/dividerColor</item>
+        <item name="android:textColor">@color/textColor1</item>
+
+
+    </style>
+
+
+</resources>
